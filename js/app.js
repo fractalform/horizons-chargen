@@ -1,4 +1,4 @@
-/*This is the js for generating sotp chars.
+/*This is the js for generating horizons chars.
 OVERVIEW:
 Object-oriented
 
@@ -70,9 +70,9 @@ var character = {
 	rollAncestry: function() {
 	  var ancestries = [
     {ancestry: 'human', adjustments: [-1, 1, 0, 1, 0, -1, 0, 1]},
-    {ancestry: 'ais\'lun', adjustments: [0, 2, -2, 0, -1, 1, 2, 0]},
-    {ancestry: 'viantu', adjustments: [-2, -1, 2, 2, 1, 0, 0, 0]},
-    {ancestry: 'djenndan', adjustments: [2, 2, -1, -2, 0, 0, 1, 0]},
+    {ancestry: 'scorthan', adjustments: [0, 2, -2, 0, -1, 1, 2, 0]},
+    {ancestry: 'CET', adjustments: [-2, -1, 2, 2, 1, 0, 0, 0]},
+    {ancestry: 'NOME', adjustments: [2, 2, -1, -2, 0, 0, 1, 0]},
     {ancestry: 'kahlniss&#225', adjustments: [-1, -2, 2, 0, 2, 0, 1, 0]},
     {ancestry: 'pulnag&#225', adjustments: [0, 0, 1, 1, 1, -1, -1, 0]}
     ];
